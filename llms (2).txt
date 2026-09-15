@@ -1,0 +1,43 @@
+# Houlier et fils
+
+> Houlier et fils est une entreprise familiale de serrurerie (serrurier) qui intervient 7j/7 dans le Var Est, entre
+> Fréjus et Sainte-Maxime. Services : ouverture de porte, changement de serrure, serrure haute sécurité,
+> porte blindée, serrure connectée et dépannage après effraction. Téléphone : 07 56 93 39 02.
+
+## Pages principales
+
+- [Accueil](https://www.houlieretfils.fr/index.html): Présentation générale, services, zone d'intervention, avis clients, FAQ.
+- [Services](https://www.houlieretfils.fr/services.html): Détail de chaque prestation de serrurerie.
+- [Urgence serrurier 24/7](https://www.houlieretfils.fr/urgence-serrurier.html): Intervention d'urgence, porte claquée, effraction.
+- [À propos](https://www.houlieretfils.fr/a-propos.html): Présentation de l'entreprise familiale et de ses engagements.
+- [Contact](https://www.houlieretfils.fr/contact.html): Coordonnées et formulaire de demande de devis.
+
+## Services proposés
+
+- Ouverture de porte: Porte claquée, clés perdues ou cassées dans la serrure : nous ouvrons votre porte rapidement, sans dégât, grâce à des techniques d'ouverture non destructives.
+- Changement de serrure: Remplacement de serrure standard, à cylindre ou à encastrer, dans le respect des normes de sécurité et adapté à votre porte.
+- Serrure haute sécurité: Installation de serrures multipoints ou certifiées A2P pour renforcer la sécurité de votre logement contre les tentatives d'effraction.
+- Porte blindée & blindage: Pose de porte blindée ou blindage d'une porte existante, pour une protection renforcée adaptée aux exigences des assurances.
+- Serrure connectée: Installation de serrures connectées, digicodes et systèmes de contrôle d'accès pour gérer vos accès à distance en toute simplicité.
+- Dépannage après effraction: Sécurisation immédiate de votre porte après une effraction ou une tentative de cambriolage, avec constat détaillé pour votre dossier d'assurance.
+
+## Zones d'intervention
+
+- [Fréjus](serrurier-frejus.html): Serrurier à Fréjus (83600), Fréjus, ville historique entre mer et massif de l'Estérel, compte de nombreux quartiers résidentiels, du centr...
+- [Saint-Raphaël](serrurier-saint-raphael.html): Serrurier à Saint-Raphaël (83700), Saint-Raphaël s'étend le long du littoral, du centre-ville et de son front de mer jusqu'aux hameaux du Dramont...
+- [Agay](serrurier-agay.html): Serrurier à Agay (83530), Agay, hameau de Saint-Raphaël niché au pied du massif de l'Estérel et au bord de sa calanque, accueille de nom...
+- [Boulouris](serrurier-boulouris.html): Serrurier à Boulouris (83700), Boulouris, quartier résidentiel et balnéaire de Saint-Raphaël apprécié pour son calme et ses pins parasols, fa...
+- [Saint-Aygulf](serrurier-saint-aygulf.html): Serrurier à Saint-Aygulf (83370), Saint-Aygulf, station balnéaire du littoral varois rattachée à Fréjus, regroupe un habitat varié entre le port...
+- [La Tour de Mare](serrurier-la-tour-de-mare.html): Serrurier à La Tour de Mare (83600), La Tour de Mare, quartier en développement de Fréjus, mêle zones résidentielles récentes et commerces de proxi...
+- [Sainte-Maxime](serrurier-sainte-maxime.html): Serrurier à Sainte-Maxime (83120), Sainte-Maxime, station balnéaire du golfe de Saint-Tropez, conjugue villas de standing, résidences de vacances...
+- [Plan-de-la-Tour](serrurier-plan-de-la-tour.html): Serrurier à Plan-de-la-Tour (83120), Plan-de-la-Tour, village provençal au cœur des vignes entre golfe de Saint-Tropez et massif des Maures, bénéfi...
+- [Puget-sur-Argens](serrurier-puget-sur-argens.html): Serrurier à Puget-sur-Argens (83480), Puget-sur-Argens, commune située entre Fréjus et l'échangeur de l'autoroute A8, regroupe zones résidentielles,...
+- [Roquebrune-sur-Argens](serrurier-roquebrune-sur-argens.html): Serrurier à Roquebrune-sur-Argens (83520), Roquebrune-sur-Argens, célèbre pour son rocher rouge et son vaste territoire allant du village provençal au li...
+- [Les Issambres](serrurier-les-issambres.html): Serrurier à Les Issambres (83380), Les Issambres, village côtier rattaché à Roquebrune-sur-Argens et réputé pour ses criques et ses résidences en...
+
+## Informations pratiques
+
+- Téléphone : 07 56 93 39 02
+- Disponibilité : 7j/7
+- Zone : communes du Var Est, entre Fréjus et Sainte-Maxime (83)
+- Devis : gratuit et sans engagement, communiqué avant toute intervention
