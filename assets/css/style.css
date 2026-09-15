@@ -90,6 +90,8 @@ header { background: #fff; border-bottom: 1px solid var(--border); position: sti
 /* HERO */
 .hero { position: relative; color: #fff; overflow: hidden; min-height: 480px; display: flex; align-items: center; background: linear-gradient(120deg, #0a1e2f 0%, #123049 55%, #1e4863 100%); }
 .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 85% 20%, rgba(46,109,164,.35), transparent 55%); z-index: 1; }
+.hero-photo { background-size: cover; background-position: center; }
+.hero-photo::before { background: linear-gradient(120deg, rgba(10,30,47,.90) 0%, rgba(18,48,73,.82) 55%, rgba(30,72,99,.62) 100%); }
 .hero-content { position: relative; z-index: 3; max-width: 740px; padding: 80px 20px; }
 .eyebrow { display: inline-block; color: var(--accent); background: rgba(46,109,164,.15); border: 1px solid rgba(46,109,164,.45); padding: 6px 16px; border-radius: 20px; font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 18px; }
 .hero h1 { font-size: 2.7rem; font-weight: 800; line-height: 1.22; margin-bottom: 16px; }
