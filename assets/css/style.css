@@ -288,6 +288,31 @@ footer { background: var(--primary-dark); color: #b9bdc6; padding: 50px 20px 30p
 @media (prefers-reduced-motion: reduce) { .floating-call-pulse { animation: none; } }
 @media (max-width: 600px) { .floating-call { width: 52px; height: 52px; right: 16px; bottom: 16px; } .floating-call svg { width: 23px; height: 23px; } }
 
+/* SERVICE DETAIL PHOTO */
+.service-photo { margin: -28px -28px 20px; border-radius: 10px 10px 0 0; overflow: hidden; aspect-ratio: 16/10; }
+.service-photo img { width: 100%; height: 100%; object-fit: cover; }
+
+/* URGENCY 30-MIN SHOWCASE */
+.urgency-section { background: var(--bg-alt); }
+.urgency-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center; }
+.urgency-title { font-size: 2.3rem; color: var(--primary); font-weight: 800; line-height: 1.18; margin-bottom: 16px; }
+.urgency-lead { color: var(--text-light); font-size: 1.02rem; margin-bottom: 28px; max-width: 480px; }
+.urgency-feature-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 30px; }
+.urgency-feature { display: flex; align-items: center; gap: 14px; background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; }
+.urgency-feature .ic { width: 40px; height: 40px; border-radius: 9px; background: rgba(46,109,164,.1); color: var(--accent); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.urgency-feature .ic svg { width: 20px; height: 20px; }
+.urgency-feature strong { display: block; color: var(--primary); font-size: .92rem; }
+.urgency-feature span { font-size: .82rem; color: var(--text-light); }
+.urgency-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+.urgency-media { position: relative; }
+.urgency-media-main { border-radius: 16px; overflow: hidden; aspect-ratio: 4/5; box-shadow: 0 20px 44px rgba(10,30,47,.18); }
+.urgency-media-main img { width: 100%; height: 100%; object-fit: cover; }
+.urgency-media-accent { position: absolute; left: -30px; bottom: -30px; width: 42%; border-radius: 12px; overflow: hidden; border: 5px solid #fff; box-shadow: 0 14px 30px rgba(10,30,47,.22); aspect-ratio: 4/3; }
+.urgency-media-accent img { width: 100%; height: 100%; object-fit: cover; }
+.urgency-badge-float { position: absolute; top: 22px; right: -18px; background: #fff; border-radius: 12px; padding: 14px 18px; box-shadow: 0 14px 30px rgba(10,30,47,.18); text-align: center; }
+.urgency-badge-float strong { display: block; font-size: 1.5rem; color: var(--accent); font-weight: 800; line-height: 1; }
+.urgency-badge-float span { display: block; font-size: .68rem; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .4px; margin-top: 4px; }
+
 @media (max-width: 900px) {
     .expertise-grid, .zone-grid { grid-template-columns: 1fr; }
     .main-nav { display: none; }
@@ -300,4 +325,9 @@ footer { background: var(--primary-dark); color: #b9bdc6; padding: 50px 20px 30p
     .form-grid { grid-template-columns: 1fr; }
     .contact-options { grid-template-columns: 1fr; }
     .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+    .urgency-grid { grid-template-columns: 1fr; gap: 60px 0; }
+    .urgency-media { margin-top: 10px; }
+    .urgency-media-accent { left: 0; width: 46%; }
+    .urgency-badge-float { right: 10px; }
+    .urgency-title { font-size: 1.8rem; }
 }
