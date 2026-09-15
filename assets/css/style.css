@@ -12,7 +12,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 140px; }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -48,6 +48,20 @@ header { background: #fff; border-bottom: 1px solid var(--border); position: sti
 .main-nav { display: flex; gap: 26px; align-items: center; }
 .main-nav a { text-decoration: none; color: var(--text); font-weight: 600; font-size: 0.93rem; padding: 6px 0; border-bottom: 2px solid transparent; transition: all .25s; }
 .main-nav a:hover, .main-nav a.active { color: var(--accent); border-color: var(--accent); }
+
+/* NAV DROPDOWNS (Zones d'intervention, Services) */
+.nav-dropdown { position: relative; display: flex; align-items: center; gap: 2px; }
+.nav-dropdown-link { text-decoration: none; color: var(--text); font-weight: 600; font-size: 0.93rem; padding: 6px 0; border-bottom: 2px solid transparent; transition: all .25s; }
+.nav-dropdown-link:hover, .nav-dropdown-link.active { color: var(--accent); border-color: var(--accent); }
+.nav-dropdown-toggle { background: none; border: none; cursor: pointer; padding: 4px; color: var(--text); display: flex; align-items: center; }
+.nav-dropdown-toggle svg { width: 14px; height: 14px; transition: transform .25s; }
+.nav-dropdown-toggle:hover { color: var(--accent); }
+.nav-dropdown.open .nav-dropdown-toggle svg { transform: rotate(180deg); }
+.nav-dropdown-menu { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); margin-top: 14px; background: #fff; border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 16px 32px rgba(0,0,0,.12); padding: 8px; min-width: 220px; z-index: 260; }
+.nav-dropdown.open .nav-dropdown-menu { display: block; }
+.nav-dropdown.open .nav-dropdown-menu.cols-2 { display: grid; grid-template-columns: repeat(2, minmax(150px, 1fr)); gap: 2px; min-width: 320px; }
+.nav-dropdown-menu a { display: block; padding: 9px 12px; border-radius: 6px; text-decoration: none; color: var(--text); font-size: .88rem; font-weight: 600; white-space: nowrap; }
+.nav-dropdown-menu a:hover { background: var(--bg-alt); color: var(--accent); }
 .header-actions { display: flex; align-items: center; gap: 14px; }
 .header-phone { display: flex; align-items: center; gap: 8px; font-weight: 800; color: var(--primary); text-decoration: none; font-size: .95rem; white-space: nowrap; }
 .header-phone svg { width: 18px; height: 18px; color: var(--accent); flex-shrink: 0; }
@@ -331,4 +345,7 @@ footer { background: var(--primary-dark); color: #b9bdc6; padding: 50px 20px 30p
     .urgency-media { margin-top: 10px; }
     .urgency-badge-float { right: 10px; }
     .urgency-title { font-size: 1.8rem; }
+    .nav-dropdown { width: 100%; justify-content: space-between; flex-wrap: wrap; }
+    .nav-dropdown-menu, .nav-dropdown.open .nav-dropdown-menu.cols-2 { position: static; transform: none; box-shadow: none; border: none; margin: 6px 0 0; padding: 0 0 0 14px; min-width: 0; width: 100%; flex: 1 0 100%; grid-template-columns: 1fr; display: none; }
+    .nav-dropdown.open .nav-dropdown-menu { display: block; }
 }
