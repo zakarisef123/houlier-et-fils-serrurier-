@@ -193,7 +193,7 @@
             HOULIER<span>&amp;FILS</span>
         </a>
         <nav class="main-nav">
-            <a href="index.html">Accueil</a><a href="services.html" class="active">Services</a><a href="urgence-serrurier.html">Urgence 24/7</a><a href="index.html#zones">Zones d'intervention</a><a href="a-propos.html">À propos</a><a href="contact.html">Contact</a>
+            <a href="index.html">Accueil</a><div class="nav-dropdown"><a href="services.html" class="nav-dropdown-link active">Services</a><button type="button" class="nav-dropdown-toggle" aria-expanded="false" aria-label="Voir tous les services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button><div class="nav-dropdown-menu"><a href="services.html#ouverture-de-porte">Ouverture de porte</a><a href="services.html#changement-de-serrure">Changement de serrure</a><a href="services.html#serrure-haute-securite">Serrure haute sécurité</a><a href="services.html#porte-blindee">Porte blindée &amp; blindage</a><a href="services.html#serrure-connectee">Serrure connectée</a><a href="services.html#depannage-effraction">Dépannage après effraction</a></div></div><a href="urgence-serrurier.html">Urgence 24/7</a><div class="nav-dropdown"><a href="index.html#zones" class="nav-dropdown-link">Zones d'intervention</a><button type="button" class="nav-dropdown-toggle" aria-expanded="false" aria-label="Voir toutes les zones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button><div class="nav-dropdown-menu cols-2"><a href="serrurier-frejus.html">Fréjus</a><a href="serrurier-saint-raphael.html">Saint-Raphaël</a><a href="serrurier-agay.html">Agay</a><a href="serrurier-boulouris.html">Boulouris</a><a href="serrurier-saint-aygulf.html">Saint-Aygulf</a><a href="serrurier-la-tour-de-mare.html">La Tour de Mare</a><a href="serrurier-sainte-maxime.html">Sainte-Maxime</a><a href="serrurier-plan-de-la-tour.html">Plan-de-la-Tour</a><a href="serrurier-puget-sur-argens.html">Puget-sur-Argens</a><a href="serrurier-roquebrune-sur-argens.html">Roquebrune-sur-Argens</a><a href="serrurier-les-issambres.html">Les Issambres</a></div></div><a href="a-propos.html">À propos</a><a href="contact.html">Contact</a>
         </nav>
         <div class="header-actions">
             <a href="tel:+33756933902" class="header-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="" ><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span class="txt">07 56 93 39 02</span></a>
@@ -231,7 +231,7 @@
             <h2>Un service adapté à chaque besoin</h2>
         </div>
         <div class="services-grid">
-            <div class="service-card">
+            <div class="service-card" id="ouverture-de-porte">
     <div class="card-photo"><img src="Ouverture de porte.jpg" alt="Serrurier Houlier et fils réalisant une ouverture de porte" loading="lazy" width="600" height="375"></div>
     <div class="service-body">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="" ><rect x="6" y="3" width="10" height="18" rx="1"/><circle cx="13" cy="12" r="1"/><line x1="4" y1="21" x2="19" y2="21"/></svg></div>
@@ -243,7 +243,7 @@
         </div>
     </div>
 </div>
-<div class="service-card">
+<div class="service-card" id="changement-de-serrure">
     <div class="card-photo"><img src="Changement de serrure.jpg" alt="Serrurier Houlier et fils lors d'un changement de serrure" loading="lazy" width="600" height="375"></div>
     <div class="service-body">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="" ><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg></div>
@@ -255,7 +255,8 @@
         </div>
     </div>
 </div>
-<div class="service-card">
+<div class="service-card" id="serrure-haute-securite">
+    <div class="card-photo"><img src="Extraction de clef dans la serrure.jpg" alt="Serrure haute sécurité posée par Houlier et fils" loading="lazy" width="600" height="375"></div>
     <div class="service-body">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="" ><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
         <h3>Serrure haute sécurité</h3>
@@ -266,7 +267,7 @@
         </div>
     </div>
 </div>
-<div class="service-card">
+<div class="service-card" id="porte-blindee">
     <div class="card-photo"><img src="Porte blindée.jpg" alt="Pose de porte blindée par Houlier et fils" loading="lazy" width="600" height="375"></div>
     <div class="service-body">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="" ><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><rect x="9.5" y="8" width="5" height="8" rx="1"/></svg></div>
@@ -278,7 +279,7 @@
         </div>
     </div>
 </div>
-<div class="service-card">
+<div class="service-card" id="serrure-connectee">
     <div class="service-body">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="" ><rect x="6" y="11" width="12" height="9" rx="2"/><path d="M9 11V8a3 3 0 0 1 6 0v3"/><path d="M12 15v2"/><path d="M8 6a6 6 0 0 1 8 0" stroke-dasharray="1.5 2"/></svg></div>
         <h3>Serrure connectée</h3>
@@ -289,7 +290,7 @@
         </div>
     </div>
 </div>
-<div class="service-card">
+<div class="service-card" id="depannage-effraction">
     <div class="card-photo"><img src="Sécurisation après effraction.jpg" alt="Sécurisation d'une porte après effraction par Houlier et fils" loading="lazy" width="600" height="375"></div>
     <div class="service-body">
         <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="" ><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><line x1="12" y1="8" x2="12" y2="13"/><circle cx="12" cy="16.6" r="0.9" fill="currentColor" stroke="none"/></svg></div>
@@ -325,6 +326,7 @@
             <p style="font-style:normal;color:var(--text-light);margin-bottom:16px;">Serrure usée, clé qui tourne dans le vide, envie de sécuriser un logement après un déménagement ou la perte d'un trousseau : nous remplaçons votre serrure par un modèle adapté à votre porte et à votre budget, avec un jeu de clés neuf et un conseil sur le niveau de sécurité le plus pertinent pour votre domicile.</p>
             <button type="button" class="btn btn-accent" data-open-quote="Changement de serrure">Demander un devis</button>
         </div><div class="testimonial-card" style="text-align:left;">
+            <div class="service-photo"><img src="Extraction de clef dans la serrure.jpg" alt="Serrure haute sécurité posée par Houlier et fils" loading="lazy" width="600" height="375"></div>
             <div class="service-icon" style="margin-bottom:14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="" ><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
             <h3 style="color:var(--primary);margin-bottom:10px;">Serrure haute sécurité</h3>
             <p style="font-style:normal;color:var(--text-light);margin-bottom:16px;">Pour les logements exposés ou les résidences secondaires inoccupées une partie de l'année, une serrure multipoints ou certifiée A2P complique fortement le travail des cambrioleurs. Nous étudions avec vous la configuration de votre porte pour poser une serrure haute sécurité réellement adaptée, sans changer l'ensemble du bloc-porte lorsque ce n'est pas nécessaire.</p>
