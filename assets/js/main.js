@@ -26,6 +26,37 @@
         });
     }
 
+    /* Nav dropdowns (Zones d'intervention, Services) */
+    document.querySelectorAll('.nav-dropdown').forEach(function (dropdown) {
+        var toggle = dropdown.querySelector('.nav-dropdown-toggle');
+        if (!toggle) return;
+        toggle.addEventListener('click', function (e) {
+            e.stopPropagation();
+            var isOpen = dropdown.classList.contains('open');
+            document.querySelectorAll('.nav-dropdown.open').forEach(function (d) {
+                d.classList.remove('open');
+                var t = d.querySelector('.nav-dropdown-toggle');
+                if (t) { t.setAttribute('aria-expanded', 'false'); }
+            });
+            if (!isOpen) {
+                dropdown.classList.add('open');
+                toggle.setAttribute('aria-expanded', 'true');
+            }
+        });
+    });
+    document.addEventListener('click', function () {
+        document.querySelectorAll('.nav-dropdown.open').forEach(function (d) {
+            d.classList.remove('open');
+            var t = d.querySelector('.nav-dropdown-toggle');
+            if (t) { t.setAttribute('aria-expanded', 'false'); }
+        });
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            document.querySelectorAll('.nav-dropdown.open').forEach(function (d) { d.classList.remove('open'); });
+        }
+    });
+
     /* FAQ accordion */
     document.querySelectorAll('.faq-q').forEach(function (btn) {
         btn.addEventListener('click', function () {
